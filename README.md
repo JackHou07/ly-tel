@@ -4,25 +4,26 @@ call ly for help.
 
 ## Develop
 
-Using [docgr](http://docgr.github.io/docgr/) to generate HTML files 
+### Install canner
+Using [canner](https://github.com/canner/canner) to generate HTML files
 
-Install docgr
+Please reference [How to install canner?](https://github.com/canner/canner#how-to-install).
 
-```
-sudo npm install -g docgr
-```
+After install canner, use canner to build the HTML files.
 
-after install docgr, if you want to generate html files, just type.
+    canner build canner.json 
 
-```
-docgr ./docgr.json
-```
+then it would generate all you needed files.
 
-the settings are all in `./docgr.json`
+### Change setting
 
-template is in `default.hbs` using `handlebars.js`
+the settings are all in `canner.json`
 
------
+### template
+
+template is in `template` folder => `default.hbs` using `handlebars.js`
+
+### gulp
 
 For compiling scss to css you can use `gulp`
 
@@ -45,7 +46,7 @@ $ git submodule update
 
 #### Developers
 
-- [@jackHou07](https://github.com/JackHou07)
+- [@ctxhou](https://github.com/ctxhou)
 - [@MrOrz](https://github.com/MrOrz)
 - [@shengli1989](https://github.com/shengli1989)
 - [@audreyt](https://github.com/audreyt)

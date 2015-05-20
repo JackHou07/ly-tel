@@ -1,7 +1,7 @@
 [{
 	"layout": "./template/home.hbs",
 	"filename": "index.html",
-	"basic": {
+	"data": {
 		"url": "index.html",
 		"title": "「123。打。道。掛。」三動作護台灣系列",
 		"og_title": "「123。打。道。掛。」三動作護台灣系列",
@@ -46,7 +46,7 @@
 {
 	"layout": "./template/default.hbs",
 	"filename": "tisa.html",
-	"basic": {
+	"data": {
 		"url": "",
 		"title": "「123。打。道。掛。」三動作護台灣",
 		"og_title": "「123。打。道。掛。」三動作護台灣",
@@ -208,7 +208,7 @@
 },{
 	"layout": "./template/default.hbs",
 	"filename": "nonuke.html",
-	"basic": {
+	"data": {
 		"url": "",
 		"title": "123廢核四「打。道。掛。」",
 		"og_title": "123廢核四「打。道。掛。」",
